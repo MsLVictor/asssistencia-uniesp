@@ -1,0 +1,8 @@
+package br.edu.uniesp.assistencia.shared.exception;
+
+public class RecursoNaoEncontradoException extends RuntimeException{
+    
+    public RecursoNaoEncontradoException(String mensagem){
+        super(mensagem);
+    }
+}
